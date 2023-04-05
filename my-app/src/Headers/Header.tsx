@@ -10,9 +10,9 @@ interface Props {
 }
 
 function Header() {
-  // const movePage = useNavigate();
+  const movePage = useNavigate();
   const navigateToConcierge = () => {
-    // movePage("../Concierge/Concierge");
+    movePage("../Concierge");
   };
   const MenuItem = ({ children }: Props) => <div className="menu-item">{children}</div>;
   return (
